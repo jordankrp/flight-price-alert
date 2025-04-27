@@ -1,0 +1,24 @@
+[project]
+name = "flight_price_alert"
+version = "0.1.0"
+description = "A tool for getting alerts when a flight price changes."
+
+authors = []
+
+requires-python = ">=3.13.1,<4"
+
+dependencies = [
+	"selenium >= 4.31.0, <5",
+	"webdriver-manager >= 4.0.2, <5",
+]
+
+[dependency-groups]
+dev = [
+	"ruff >= 0.7.2, <1",
+]
+
+[project.urls]
+Repository = "https://github.com/jordankrp/flight-price-alert"
+
+[tool.ruff]
+line-length = 99
